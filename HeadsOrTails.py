@@ -1,5 +1,11 @@
 import random
 
+# Enters your name
+name = input("Who are you?\n")
+
+# Prints out your name
+print(f"Hello, {name}!")
+
 # Function to randomize values of coin toss
 def coinToss():
     return random.randint(0,1)
