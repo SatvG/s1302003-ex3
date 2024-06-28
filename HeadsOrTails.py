@@ -26,6 +26,13 @@ for rnd in range(1,4):
 
 # Final result of the game
 print(f"Heads: {heads}, Tails: {tails}")
+
+# Decide the winner
+if heads > tails:
+    print("You won!")
+
+else:
+    print("You lost!")
     
     
 
