@@ -35,10 +35,10 @@ print(f"Heads: {heads}, Tails: {tails}")
 
 # Decide the winner
 if heads > tails:
-    print("You won!")
+    print(f"{name} won!")
 
 else:
-    print("You lost!")
+    print(f"{name} lost!")
     
     
 
